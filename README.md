@@ -1,8 +1,8 @@
-# Token-Optimized Multi-Agent Graph Router 🚀
+# Token-Optimized Multi-Agent Graph Router 
 
 An infrastructure-level MLOps orchestration engine designed to minimize production LLM API token overhead. Instead of blindly routing all user queries to heavy, expensive high-reasoning models, this architecture models specialized AI agents as nodes within a **Directed Graph (`NetworkX`)** and programmatically computes the most cost-efficient processing trajectory based on task semantic complexity.
 
-## 🧠 Core Architecture & Mathematical Framework
+##  Core Architecture & Mathematical Framework
 
 Most basic AI applications route traffic using rigid conditional loops. This framework bridges **Graph Theory** with **LLM Deployment Constraints**:
 
